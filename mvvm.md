@@ -1,4 +1,11 @@
-# ICommand
+# MVVM
+MVVM关系图解
+![MVVM关系图解](MVVM关系图解.png) 
+
+
+
+
+## ICommand
 接口
 ```c#
 bool CanExecute(object parameter);
