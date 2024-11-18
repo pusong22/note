@@ -36,3 +36,7 @@ unset env
     > ```
 4. git config --global commit.gpgign true
 5. git config --global tag.gpgsign true
+
+## ```https://github.com/{username}.keys```通过这个网站+用户的email就可以添加信任的签名公钥
+
+## github网页签名通过```https://github.com/web-flow.gpg```下载签名文件，然后通过```gpg --import 下载的文件``` 来导入公钥
